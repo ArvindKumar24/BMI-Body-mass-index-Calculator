@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.bmi-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.bmi-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.category-bar {
+  height: 20px;
+  margin-top: 10px;
+  background: linear-gradient(to right,
+    #00bfff 0%,
+    #00bfff 18%,
+    #28a745 18%,
+    #28a745 24.9%,
+    #ffc107 25%,
+    #ffc107 29.9%,
+    #dc3545 30%,
+    #dc3545 100%);
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .bmi-container {
+    padding: 20px;
+  }
+}
